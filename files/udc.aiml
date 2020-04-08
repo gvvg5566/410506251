@@ -2,27 +2,32 @@
 <aiml>
   <category>
     <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <template>æä¸æåç­éååé¡</template>
   </category>
   
 <category>
-<pattern>HELLO</pattern>
+<pattern>æ©å®</pattern>
 <template><srai>HI</srai></template>
 </category>
 
 <category>
-<pattern>HI THERE</pattern>
+<pattern>åå®</pattern>
 <template><srai>HI</srai></template>
 </category>
 
 <category>
-<pattern>HOWDY</pattern>
+<pattern>æå®</pattern>
 <template><srai>HI</srai></template>
 </category>
 
 <category>
 <pattern>HI</pattern>
-<template>Hi, how are you?</template>
+<template>å¨ï¼ä½ å¥½å</template>
+</category>
+
+<category>
+<pattern>è«å <set>fruit</set> æ¯ä¸ç¨®æ°´æå</pattern>
+<template>æ¯ï¼<star/>æ¯æææçæ°´æï¼å®ç<map name="fruitlike"><star/></map></template>
 </category>
   
 <category>
@@ -32,7 +37,7 @@
 
 <topic name="åå¡">
 <category>
-<pattern>æåæ­¡å®çå£æ</pattern>
+<pattern>æåæ­¡åå®æç¥</pattern>
 <template>æä¹å¾åæ­¡</template>
 </category>
 <category>
