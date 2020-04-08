@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  
+<category>
+<pattern>HELLO</pattern>
+<template><srai>HI</srai></template>
+</category>
+
+<category>
+<pattern>HI THERE</pattern>
+<template><srai>HI</srai></template>
+</category>
+
+<category>
+<pattern>HOWDY</pattern>
+<template><srai>HI</srai></template>
+</category>
+
+<category>
+<pattern>HI</pattern>
+<template>Hi, how are you?</template>
+</category>
+  
+<category>
+<pattern>æåå¯ä»¥èèåå¡å</pattern>
+<template>ä½ åæ­¡<set name="topic">åå¡</set>å?</template>
+</category>
+
+<topic name="åå¡">
+<category>
+<pattern>æåæ­¡å®çå£æ</pattern>
+<template>æä¹å¾åæ­¡</template>
+</category>
+<category>
+<pattern>å¯æ¯å®æé»è¦</pattern>
+<template>ä¹è¨±ä½ å¯ä»¥è©¦èåè¶</template>
+</category>
+</topic>
+
+</aiml>
